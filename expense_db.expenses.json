@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "69d67fb12752d4bcafff6cea"
+  },
+  "title": "rices",
+  "amount": 200,
+  "category": "groceries"
+},
+{
+  "_id": {
+    "$oid": "69d6a0fd3349b8e2c5348719"
+  },
+  "title": "Milk",
+  "amount": 208,
+  "category": "food"
+}]

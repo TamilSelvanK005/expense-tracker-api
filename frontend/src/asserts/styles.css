@@ -1,0 +1,468 @@
+body {
+    font-family: Arial;
+    background: #f4f6f8;
+}
+
+.dashboard {
+    padding: 20px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+/* input inside this div */
+.input-box input {
+    width: 45%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+/* focus effect 🔥 */
+.input-box input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.cards {
+    display: flex;
+    gap: 51px;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.green {
+    background: #2ecc71;
+}
+
+.red {
+    background: #e74c3c;
+}
+
+.blue {
+    background: #3498db;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+}
+
+.left {
+    flex: 1;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.right {
+    flex: 1;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.alert {
+    color: red;
+    font-weight: bold;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar button {
+    background: red;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: yellow;
+}
+
+/* BACKGROUND */
+body {
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* CARD */
+.add-container {
+    max-width: 736px;
+    margin: 100px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* TITLE */
+.add-container h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* FORM */
+.add-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* LABEL */
+.add-form label {
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+}
+
+/* INPUT */
+.add-form input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+    width: 80%;
+}
+
+.add-form input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* BUTTON */
+.add-form button {
+    padding: 12px;
+    background: linear-gradient(45deg, #2ecc71, #27ae60);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 50%;
+    align-self: center
+}
+
+.add-form button:hover {
+    transform: scale(1.05);
+}
+
+/* EXPENSE LIST */
+.expense-list {
+    margin-top: 20px;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* TEXT */
+.expense-text {
+    font-weight: 500;
+}
+
+/* BUTTON GROUP */
+.actions button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* EDIT */
+.edit-btn {
+    background: #f39c12;
+    color: white;
+}
+
+/* DELETE */
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+}
+
+/* SAVE */
+.save-btn {
+    background: #2ecc71;
+    color: white;
+}
+
+/* SECTION */
+.budget-section {
+    margin: 30px 0;
+}
+
+/* INPUT */
+.budget-input {
+    margin-bottom: 20px;
+}
+
+.budget-input label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.budget-input input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* CARDS */
+.budget-cards {
+    display: flex;
+    gap: 15px;
+}
+
+/* COMMON CARD */
+.card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* COLORS */
+.card.budget {
+    background: linear-gradient(45deg, #2ecc71, #27ae60);
+}
+
+.card.expense {
+    background: linear-gradient(45deg, #e74c3c, #c0392b);
+}
+
+.card.remaining {
+    background: linear-gradient(45deg, #3498db, #2980b9);
+}
+
+/* TEXT */
+.card p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+/* LOGIN PAGE */
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+}
+
+/* LOGIN CARD */
+.login-box {
+    width: 350px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* TITLE */
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+/* INPUT */
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* BUTTON */
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #2980b9;
+}
+
+/* EDIT MODE ROW */
+.edit-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+/* INPUT FIX */
+.edit-row input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* SAVE BUTTON */
+.edit-row button {
+    padding: 8px 12px;
+    background: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* 📱 MOBILE (≤768px) */
+/* ========================= */
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .budget-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    input {
+        width: 100% !important;
+    }
+
+    .add-container {
+        width: 90%;
+    }
+
+    .expense-item {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .actions {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .add-form button {
+        width: 100%;
+    }
+}
+
+/* ========================= */
+/* 📲 TABLET (769px–1024px) */
+/* ========================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .main {
+        flex-direction: column;
+    }
+
+    .budget-cards {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 1 1 45%;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    .add-container {
+        width: 70%;
+    }
+}
+
+/* ========================= */
+/* 💻 DESKTOP (≥1025px) */
+/* ========================= */
+@media (min-width: 1025px) {
+    .main {
+        flex-direction: row;
+    }
+}
