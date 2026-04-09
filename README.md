@@ -273,7 +273,31 @@ localStorage.clear()
 
 ---
 
-## Notes
+##  Run Full Project (Backend + Frontend)
+
+ Backend (FastAPI)
+
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+Backend running:
+
+http://127.0.0.1:8000
+
+Swagger:
+
+http://127.0.0.1:8000/docs
+
+ Frontend (React) - open new terminal
+
+cd frontend
+npm install
+npm start
+
+Frontend running:
+
+http://localhost:3000
 
 * Authentication is implemented using localStorage (frontend only)
 * For production, implement JWT-based authentication
