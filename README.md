@@ -298,6 +298,10 @@ npm start
 Frontend running:
 
 http://localhost:3000
+Connection:
+client = MongoClient("mongodb://localhost:27017")
+db = client["expense_db"]
+collection = db["expenses"]
 
 * Authentication is implemented using localStorage (frontend only)
 * For production, implement JWT-based authentication
